@@ -10,8 +10,11 @@ You will also need to download [nltk](https://www.nltk.org/) modules. The script
 
 The command below will install all dependencies in requirements.txt and install the modules from nltk
 
-For MacOS:
+### For MacOS:
+
 ```bash
+python3 -m venv .venv
+source .venv/vin/activate
 python3 -m pip install -r requirements.txt && python3 nltkdownload.py
 ```
 
@@ -45,8 +48,3 @@ optional arguments:
 
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
